@@ -1,0 +1,14 @@
+<input type="button" id="btn" value="按钮"/>
+<center>
+<select name="select" id="select">
+    <option value="1">aa</option>
+    <option value="a">bb</option>
+    <option value="c">cc</option>
+</select>
+</center>
+<script type="text/javascript">
+//点击按钮，让第二项选中
+    document.getElementById('btn').onclick=function(){
+        document.getElementById('select').value="a";
+    }
+</script>
